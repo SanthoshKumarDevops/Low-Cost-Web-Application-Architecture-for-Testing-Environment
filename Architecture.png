@@ -1,1 +1,19 @@
-
+           🌐 User (Browser)
+                    │
+                    ▼
+              🌍 Internet
+                    │
+                    ▼
+        🔐 Security Group (Port 80, 22)
+                    │
+                    ▼
+        🖥️ EC2 Instance (t2.micro)
+                    │
+            ┌───────────────┐
+            │   🐳 Docker    │
+            │               │
+            │  🌐 Nginx App │
+            └───────────────┘
+                    │
+                    ▼
+            💾 EBS Volume (Storage)
