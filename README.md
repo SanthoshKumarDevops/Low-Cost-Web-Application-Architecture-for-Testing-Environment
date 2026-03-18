@@ -43,3 +43,7 @@ http://<EC2-Public-IP>
 - Installed Docker successfully
 - Deployed Nginx container
 - Verified application via public IP in browser
+
+## 💡 Optimization
+
+This architecture is designed to minimize cost by using a single EC2 instance without load balancers or auto scaling, making it ideal for testing environments.
