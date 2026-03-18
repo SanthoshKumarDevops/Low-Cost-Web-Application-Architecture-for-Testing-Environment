@@ -7,6 +7,29 @@ This project demonstrates a cost-effective architecture to deploy a web applicat
 
 ## 🏗️ Architecture
 
+
+             🌐 User (Browser)
+                    │
+                    ▼
+              🌍 Internet
+                    │
+                    ▼
+        🔐 Security Group (Port 80, 22)
+                    │
+                    ▼
+        🖥️ EC2 Instance (t2.micro)
+                    │
+            ┌───────────────┐
+            │   🐳 Docker    │
+            │               │
+            │  🌐 Nginx App │
+            └───────────────┘
+                    │
+                    ▼
+            💾 EBS Volume (Storage)
+
+            
+
 User → Internet → Security Group → EC2 → Docker → Web Application
 
 - EC2 (t2.micro) used for hosting
