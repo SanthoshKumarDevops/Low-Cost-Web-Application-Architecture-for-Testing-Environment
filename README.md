@@ -36,3 +36,10 @@ docker run -d -p 80:80 nginx
 
 ### 4. Access Application
 http://<EC2-Public-IP>
+
+## 🔍 Testing & Verification
+
+- Verified EC2 instance is running
+- Installed Docker successfully
+- Deployed Nginx container
+- Verified application via public IP in browser
