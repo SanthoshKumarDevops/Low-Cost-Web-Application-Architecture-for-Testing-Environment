@@ -1,0 +1,49 @@
+1. EC2 Instance (t2.micro / t3.micro)
+      -----------------------------------
+Price ≈ $0.0104 per hour
+
+Monthly:
+ 0.0104 × 24 × 30 = $7.48/month
+
+In INR (₹83/$ approx):
+₹620/month
+
+2. EBS Storage (8 GB gp2)
+---------------------------
+Price ≈ $0.10 per GB/month
+
+8 × 0.10 = $0.80/month
+₹66/month
+
+3. Data Transfer (Low Usage – Testing)
+--------------------------------------
+First 1 GB free, then small usage
+
+Estimated: $1/month
+
+₹83/month
+
+4. Total Cost Calculation
+--------------------------
+EC2 → ₹620
+
+EBS → ₹66
+
+Data → ₹83
+
+✅ Final Total:
+-----------------
+ ₹620 + ₹66 + ₹83 =
+
+👉 ₹769/month (Approx ₹750–₹800/month) 
+
+
+## 💰 Cost Estimation (Accurate)
+--------------------------------
+- EC2 (t2.micro): $7.48/month  (~₹620)
+- EBS (8GB gp2): $0.80/month   (~₹66)
+- Data Transfer: $1/month     (~₹83)
+
+**Total Estimated Cost: ~$9.28/month (~₹750–₹800/month)**
+
+> This cost is optimized for a testing environment with minimal usage.
